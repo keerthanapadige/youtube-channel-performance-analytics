@@ -48,3 +48,25 @@ PostgreSQL tables
 SQL analysis queries
         ↓
 Dashboard and insights
+## How to Contribute
+
+Contributions are welcome.
+
+You can contribute by:
+
+- Improving Python extraction or cleaning scripts
+- Adding more SQL analysis queries
+- Adding data integrity checks
+- Improving dashboard design
+- Adding a Tableau Public or Power BI dashboard
+- Improving documentation
+- Adding more YouTube channels for analysis
+
+### Contribution Workflow
+
+1. Fork this repository.
+2. Create a new branch.
+
+```bash
+git clone https://github.com/keerthanapadige/youtube-channel-performance-analytics.git
+cd youtube-channel-performance-analytics
