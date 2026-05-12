@@ -1,0 +1,50 @@
+# YouTube Channel Performance Analytics Dashboard
+
+## Project Overview
+
+This project analyzes YouTube channel and video performance using data extracted from the YouTube Data API. The goal is to understand channel reach, video engagement, publishing patterns, and content performance across selected YouTube channels.
+
+The project follows an end-to-end analytics workflow:
+
+YouTube Data API → Python Extraction → Python Cleaning → PostgreSQL → SQL Analysis → Dashboard Design
+
+## Business Problem
+
+Content creators and digital media teams need to understand which videos perform best, which channels drive the most reach, and what publishing patterns lead to better engagement.
+
+This project answers questions such as:
+
+- Which channel has the highest reach?
+- Which videos received the most views?
+- Which videos had the highest engagement rate?
+- Which upload days performed best?
+- Are there videos with high views but low engagement?
+- Is the data reliable enough for analysis?
+
+## Tools Used
+
+- Python
+- YouTube Data API
+- Pandas
+- PostgreSQL
+- SQL
+- Git & GitHub
+- Dashboard Design
+
+## Project Architecture
+
+YouTube Data API
+        ↓
+Python extraction script
+        ↓
+Raw CSV files
+        ↓
+Python cleaning script
+        ↓
+Cleaned CSV files
+        ↓
+PostgreSQL tables
+        ↓
+SQL analysis queries
+        ↓
+Dashboard and insights
